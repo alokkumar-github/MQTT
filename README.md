@@ -6,3 +6,7 @@
 https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt
 push based
 
+
+1.	rabbitmqctl list_queues | grep email
+2.	rabbitmqctl delete_queue <queue-name>
+
